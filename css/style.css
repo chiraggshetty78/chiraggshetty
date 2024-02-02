@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap');
+body{
+    margin: 0%;
+    text-align: center;
+    color: #40514E;
+    background-color: rgb(237, 240, 247) ;
+}
+h1{
+    margin-top: 5%;
+    margin-left: auto;
+    margin-bottom: 0%;
+    margin-right: auto;
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 8vw;
+    color: #140d2e;
+
+}
+h2{
+    margin: 0;
+    color: #140d2e;
+    font-family: Rubik;
+    font-size: 2rem;
+}
+
+
+h3{
+    color: #140d2e;
+    font-family: Rubik;
+    font-size: 1.5rem;
+}
+
+hr{
+    border-top: 10px dotted #d3d3d3;
+    width: 5%;
+    border-left: 0;
+    margin: 100px auto;
+
+}
+
+
+ .imgprofile{
+    padding-bottom: 30px;
+    width: 8%;
+    height: 100%;
+ }
+
+
+
+
+.TopContainer{
+    padding-top: 100px ;
+    position: relative;
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+.bottom-container{
+    background-color: #292f44;
+    padding: 5%;
+}
+
+.mountain{
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+.topC{
+
+    width: 25%;
+    position: absolute;
+    right: 20%;
+    top: calc(50px + 20%);
+}
+
+.bottomC{
+    width: 25%;
+    position: absolute;
+    left: 14%;
+    top: calc(50px + 45%);
+}
+
+.profile-description{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.5rem;
+    width: 30%;
+    margin: auto;
+}
+
+
+
+.Coding{
+    width: 25%;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+.Video{
+    width: 25%;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+
+.web{
+    font-size: 1.5vw;
+    font-family: 'Rubik';
+}
+
+.skill-row{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.container-description{
+    font-family: 'Dosis', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+
+.contactmessage{
+    width: 30%;
+    font-family: 'Dosis', sans-serif;
+    font-size: 1.3rem;
+    margin: 40px auto 60px;
+
+}
+
+
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    color: #ffffff;
+    font-size: 20px;
+    background: #292f44;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #373d52;
+    background-image: -webkit-linear-gradient(top, #352F44, #5C5470);
+    background-image: -moz-linear-gradient(top, #352F44, #5C5470);
+    background-image: -ms-linear-gradient(top, #352F44, #5C5470);
+    background-image: -o-linear-gradient(top, #352F44, #5C5470);
+    background-image: linear-gradient(to bottom, #352F44, #5C5470);
+    text-decoration: none;
+  }
+
+
+  a{
+    color: #140d2e;
+    font-family: 'Dosis', sans-serif;
+    margin: 10px 20px;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #ffffff;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .name{
+        font-size: 4rem;
+    }
+
+    .web{
+        font-size: 1rem;
+    }
+
+    .bottomC{
+        left: 0%;
+        top: calc(50px + 48%);
+    }
+
+    .imgprofile{
+        width: 40%;
+     }
+         .topC{
+        right: 12%;
+        top: calc(50px + 38%);
+    }
+
+    .profile-description{
+        width: 100%;
+    }
+    
+    hr{
+        width: 20%;
+    }
+
+    
+    h3{
+        font-size: 1.3rem;
+    }
+
+    .skill-row{
+        width: 90%;
+    }
+
+        
+    .container-description{
+        font-size: 1.2rem;
+        text-align: justify;
+        font-weight: 500;
+    }
+
+
+    .contactmessage{
+        width: 80%;
+        font-size: 1.3rem;
+    
+    }
+
+    .contactheader{
+        width: 70%;
+        margin: auto;
+        padding-top: 5%;
+    }
+
+    a{
+        font-size: 1.3rem;
+    }
+    .TopContainer{
+        padding-top: 50%;
+        padding-bottom: 50%;
+    }
+
+
+    .cmbg{
+        height: 100px;
+        position: absolute;
+        margin-left: -50px;
+        margin-top: -100px;
+    }
+     
+    .Contactmemain{
+        margin-top: 70%;
+    }
+    
+    
+    
+  }
+#secondlastcontainer{
+    position: relative;
+
+}
+
+#video1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+@media only screen and (max-width: 1807px) {
+    #video1{
+        display: inline;
+        width: 50%;
+        justify-content: space-evenly;
+    }
+
+    .bottomimage{
+        height: 13px;
+    
+    }
+    
+    .footer-link{
+        font-size: 15px;
+    
+    }
+
+
+
+}
+
+@media only screen and (min-width: 1807px) {
+
+    .bottomimage{
+        height: 21px;
+    
+    }
+    
+    .footer-link{
+        font-size: 25px;
+    
+    }
+
+
+    .Contactmemain{
+        margin-top: 0%;
+    }
+    
+    .cmbg{
+        margin-top: 13%;
+    }
+
+
+}
+
+.copywrite{
+    color: #ffffff;
+}
+
+
+
+.contactimage{
+    height: 17px;
+}
+
+
+/* BUTTONS FOR CONTACT ME PAGE */
+
+.btni {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    color: #ffffff;
+    font-size: 20px;
+    background: #292f44;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+
+
+  .btni:hover {
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    background-image: linear-gradient(to right top, #f9ce34, #ffaf31, #ff903d, #ff704d, #ff5160, #f9396e, #ef1f7e, #e0008f, #cf00a0, #b800b3, #960ec5, #6228d7);
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+  .btnt {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    color: #ffffff;
+    font-size: 20px;
+    background: #292f44;
+    padding: 10px 37px 10px 35px;
+    text-decoration: none;
+  }
+
+
+  .btnt:hover {
+    background-image: linear-gradient(to right bottom, #9a8478, #7c6962, #5f504d, #433938, #282323, #1d1a1a, #121010, #000000, #000000, #000000, #000000, #000000);    box-shadow: 0 0 20px #eee;
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+  
+  .btnl {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    color: #ffffff;
+    font-size: 20px;
+    background: #292f44;
+    padding: 10px 33px 10px 33px;
+    text-decoration: none;
+  }
+
+           
+
+  .btnl:hover {
+    background-image: linear-gradient(to right bottom, #0077b5, #0077b5, #0077b5, #0077b5, #0077b5, #2f6aa5, #3e5e94, #455283, #453a5c, #372639, #22161d, #000000);    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+
+
+
+    
+  .btng {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Rubik';
+    color: #ffffff;
+    font-size: 20px;
+    background: #292f44;
+    padding: 10px 48px 10px 48px;
+    text-decoration: none;
+  }
+
+           
+
+  .btng:hover {
+    background-image: linear-gradient(to right, #0077b5 0%, #41dc1a  51%, #41dc1a  100%);
+    background-size: 200% auto;
+    color: white;            
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  .cmbg{
+    height: 100px;
+}
+ 
